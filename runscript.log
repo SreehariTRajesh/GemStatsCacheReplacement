@@ -1,0 +1,31 @@
+Command line:
+./run_gem5_gcc41_spec06_benchmark.sh lbm /home/rajesh/gem5/m5out/ stats_random_8_way.txt
+================= Hardcoded directories ==================
+GEM5_DIR:                                     /home/rajesh/gem5/
+SPEC_DIR:                                     /home/rajesh/spec_cpu2006/
+==================== Script inputs =======================
+BENCHMARK:                                    lbm
+OUTPUT_DIR:                                   /home/rajesh/gem5/m5out/
+==========================================================
+Changing to SPEC benchmark runtime directory: /home/rajesh/spec_cpu2006//benchspec/CPU2006/470.lbm/build/build_base_gcc41-64bit.0000
+
+
+--------- Here goes nothing! Starting gem5! ------------
+
+
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.1.0.0
+gem5 compiled Apr  2 2024 10:12:36
+gem5 started Apr  2 2024 10:15:52
+gem5 executing on rajesh-Standard-PC-Q35-ICH9-2009, pid 19140
+command line: /home/rajesh/gem5//build/X86/gem5.opt --stats-file=/home/rajesh/gem5/m5out//stats_random_8_way.txt --outdir=/home/rajesh/gem5/m5out/ /home/rajesh/gem5//configs/learning_gem5/part1/two_level.py --benchmark=lbm --benchmark_stdout=/home/rajesh/gem5/m5out//lbm.out --benchmark_stderr=/home/rajesh/gem5/m5out//lbm.err
+
+Selected SPEC_CPU2006 benchmark
+--> lbm
+Process stdout file: /home/rajesh/gem5/m5out//lbm.out
+Process stderr file: /home/rajesh/gem5/m5out//lbm.err
+Beginning simulation!
+Exiting @ tick 793066000 because exiting with last active thread context
